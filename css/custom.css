@@ -403,4 +403,20 @@ footer p {
 .Request .titlepage3 h2,
 .Currency .titlepage h2 {
   color: #666;
+}
+
+.Request-box .Register {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0 40px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .Request .Request-box .Register h3 {
+    font-size: 15px;
+    line-height: 5px;
+  }
 }/*# sourceMappingURL=custom.css.map */

@@ -423,3 +423,55 @@ footer p {
 .Currency .titlepage h2 {
   color: #666;
 }
+.Request-box .Register {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0 40px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .Request .Request-box .Register h3 {
+    font-size: 15px;
+    line-height: 5px;
+  }
+}
+
+// @media (min-width: 992px) and (max-width: 1199px) {
+//   .Request-box .Register {
+//     padding: 70px 39px;
+//   }
+// }
+
+// @media (min-width: 768px) and (max-width: 991px) {
+//   .Request-box .Register {
+//     padding: 52px 35px;
+//   }
+// }
+
+// @media (max-width: 575px) {
+//   .Request .Request-box .Register p {
+//     line-height: 18px;
+//     font-size: 12px;
+//   }
+// }
+
+// @media (max-width: 575px) {
+//   .Request-box .Register {
+//     padding: 100px 80px;
+//     height: 100%;
+//   }
+// }
+// @media (max-width: 575px) {
+//   .Request .Request-box .Register h3 {
+//     font-size: 17px;
+//     line-height: 21px;
+//   }
+// }
+// @media (max-width: 575px) {
+//   .Request .Request-box .Register h3 {
+//     font-size: 17px;
+//     line-height: 21px;
+//   }
+// }
