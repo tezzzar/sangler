@@ -333,4 +333,19 @@ p {
   text-align: justify;
   line-height: 1.5;
   font-weight: 300;
+}
+
+.Request form {
+  margin-bottom: 60px;
+}
+
+.Request .Request-box .Register a:hover {
+  background-color: #cd7213;
+  border: #ffffff solid 1px;
+}
+
+.send-btn:hover {
+  background-color: #cd7213;
+  border: #ffffff solid 2px;
+  color: #fff;
 }/*# sourceMappingURL=custom.css.map */
