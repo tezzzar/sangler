@@ -48,3 +48,21 @@ document.getElementById("email").innerHTML = email;
 //             alert('Failed to send email.');
 //         });
 // });
+
+
+// -------------------- CAROUSEL --------------------
+$(document).ready(function () {
+    var owl = $("#myCarousel").owlCarousel({
+        items: 1,
+        loop: true,
+        // nav: true,
+        // navText: [
+        //     "<i class='fa fa-angle-left'></i>",
+        //     "<i class='fa fa-angle-right'></i>"
+        // ],
+        autoplay: true,
+        autoplayTimeout: 3000,
+        autoplayHoverPause: true
+    });
+
+});

