@@ -161,17 +161,20 @@ p {
 }
 
 .burger-menu_nav {
-  padding-top: 120px;
+  padding-top: 10px;
   position: fixed;
   top: 0;
   z-index: 20;
   display: flex;
   flex-flow: column;
   height: 100%;
-  background-color: #16253d;
+  background-color: #ffffff;
   overflow-y: auto;
   right: -100%;
   transition: 0.8s;
+}
+.burger-menu_nav .logo img {
+  margin-left: 10px;
 }
 
 .burger-menu_active .burger-menu_nav {
@@ -230,6 +233,9 @@ p {
 .burger-menu .menu-area-main {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+  align-items: baseline;
+  gap: 30px;
 }
 
 .burger-menu .menu-area-main > li > a {
