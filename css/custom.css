@@ -2,7 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 .about-textblock,
 .abouts .abouts-bg .abouts-us,
-.main-menu a {
+.main-menu a,
+p {
   font-family: "Montserrat", sans-serif;
 }
 
@@ -327,4 +328,10 @@
   .abouts .abouts-bg .abouts-us h3 {
     text-align: left;
   }
+}
+.full-slider_cont p {
+  font-size: 25px;
+  text-align: justify;
+  line-height: 1.5;
+  font-weight: 300;
 }/*# sourceMappingURL=custom.css.map */
