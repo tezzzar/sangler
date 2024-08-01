@@ -378,3 +378,16 @@ p {
 .full-slider_cont:last-child {
   margin-top: auto;
 }
+
+.full-slider_cont p {
+  text-align: justify;
+}
+
+@media (max-width: 1040px) {
+  .full-slider_cont p {
+    text-align: left;
+  }
+  .about-textblock p {
+    text-align: left;
+  }
+}
