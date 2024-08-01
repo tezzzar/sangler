@@ -399,10 +399,8 @@ footer p {
     text-align: left;
   }
 }
+.Currency ul a,
+.Request .titlepage3 h2,
 .Currency .titlepage h2 {
-  color: #666;
-}
-
-.Currency ul a {
   color: #666;
 }/*# sourceMappingURL=custom.css.map */
