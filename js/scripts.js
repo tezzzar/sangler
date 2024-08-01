@@ -26,9 +26,21 @@ function burgerMenu(selector) {
 burgerMenu('.burger-menu');
 
 // -------------------- E-MAIL HIDE -----------------------------
-var parts = ["sangler", "ua", "com", "&#46;", "&#64;"];
-var email = parts[0] + parts[4] + parts[0] + parts[3] + parts[2] + parts[3] + parts[1];
-document.getElementById("email").innerHTML = email;
+// var parts = ["sangler", "ua", "com", "&#46;", "&#64;"];
+// var email = parts[0] + parts[4] + parts[0] + parts[3] + parts[2] + parts[3] + parts[1];
+// document.getElementById("email").innerHTML = email;
+
+document.querySelectorAll('.email').forEach(function (element) {
+    var parts = ["sangler", "ua", "com", ".", "@"];
+    var email = parts[0] + parts[4] + parts[0] + parts[3] + parts[2] + parts[3] + parts[1];
+
+    // Вставити email у <span> всередині елемента
+    element.querySelector('.e-mail').innerHTML = email;
+
+    // Додати mailto лінк
+    var link = element.querySelector('a');
+    link.href = 'mailto:' + email;
+});
 
 // ----------------------- Post script --------------------------
 // (function () {
