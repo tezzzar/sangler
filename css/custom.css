@@ -322,4 +322,9 @@
   .Currency .titlepage {
     text-align: left;
   }
+}
+@media (max-width: 992px) {
+  .abouts .abouts-bg .abouts-us h3 {
+    text-align: left;
+  }
 }/*# sourceMappingURL=custom.css.map */

@@ -30,9 +30,9 @@ $(function () {
 	/* sticky
 	-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
 
-	$(document).ready(function () {
-		$(".sticky-wrapper-header").sticky({ topSpacing: 0 });
-	});
+	// $(document).ready(function () {
+	// 	$(".sticky-wrapper-header").sticky({ topSpacing: 0 });
+	// });
 
 	/* Mouseover
 	-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
