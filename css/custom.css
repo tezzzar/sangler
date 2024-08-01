@@ -348,4 +348,17 @@ p {
   background-color: #cd7213;
   border: #ffffff solid 2px;
   color: #fff;
+}
+
+.main_bt:hover,
+.main_bt:focus {
+  border: solid #ffffff 2px;
+}
+
+.main_bt {
+  border: solid #000 2px;
+}
+
+.full-slider_cont:last-child {
+  margin-top: auto;
 }/*# sourceMappingURL=custom.css.map */
