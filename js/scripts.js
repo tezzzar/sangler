@@ -78,3 +78,32 @@ $(document).ready(function () {
     });
 
 });
+
+
+// ---------------------- CURRENCY RATE ------------------
+const url = 'https://bank.gov.ua/NBUStatService/v1/statdirectory/exchangenew?json';
+
+fetch(url)
+    .then(response => response.json())
+    .then(data => {
+        const tbody = document.querySelector('#exchange-rates tbody');
+
+        const currenciesOrder = ['USD', 'EUR', 'PLN', 'GBP'];
+
+        const filteredCurrencies = data.filter(currency =>
+            currenciesOrder.includes(currency.cc)
+        ).sort((a, b) => {
+            return currenciesOrder.indexOf(a.cc) - currenciesOrder.indexOf(b.cc);
+        });
+
+        filteredCurrencies.forEach(currency => {
+            const row = document.createElement('tr');
+            row.innerHTML = `
+                <td>${currency.cc}</td>
+                <td>${currency.txt}</td>
+                <td>${currency.rate}</td>
+            `;
+            tbody.appendChild(row);
+        });
+    })
+    .catch(error => console.error('Error fetching data:', error));
