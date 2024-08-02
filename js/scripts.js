@@ -87,6 +87,11 @@ fetch(url)
     .then(response => response.json())
     .then(data => {
         const tbody = document.querySelector('#exchange-rates tbody');
+        const dateSpan = document.getElementById('exchange-date');
+
+        if (data.length > 0) {
+            dateSpan.textContent = data[0].exchangedate; // Встановлюємо дату курсів валют
+        }
 
         const currenciesOrder = ['USD', 'EUR', 'PLN', 'GBP'];
 
@@ -99,10 +104,10 @@ fetch(url)
         filteredCurrencies.forEach(currency => {
             const row = document.createElement('tr');
             row.innerHTML = `
-                <td>${currency.cc}</td>
-                <td>${currency.txt}</td>
-                <td>${currency.rate}</td>
-            `;
+                        <td>${currency.cc}</td>
+                        <td>${currency.txt}</td>
+                        <td>${currency.rate}</td>
+                    `;
             tbody.appendChild(row);
         });
     })
