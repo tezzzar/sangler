@@ -82,7 +82,7 @@ footer p {
 }
 
 .main_bt {
-  background: #16253d;
+  background: #2c4369;
 }
 
 .Currency .three-box {
@@ -425,4 +425,32 @@ h6 {
     font-size: 15px;
     line-height: 5px;
   }
+}
+.Currency-bg {
+  background-color: #21629d;
+}
+
+.head-top {
+  background: #2c4369;
+}
+
+.footer {
+  background-color: #21629d;
+  padding: 40px 0px;
+}
+
+.copyright {
+  background-color: #2c4369;
+}
+
+.about-bg {
+  background-color: #21629d;
+}
+
+.Request-bg {
+  background-color: #21629d;
+}
+
+.send-btn {
+  background-color: #2c4369;
 }/*# sourceMappingURL=custom.css.map */
