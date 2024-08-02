@@ -73,7 +73,7 @@ $(document).ready(function () {
         //     "<i class='fa fa-angle-right'></i>"
         // ],
         autoplay: true,
-        autoplayTimeout: 3000,
+        autoplayTimeout: 5000,
         autoplayHoverPause: true
     });
 
