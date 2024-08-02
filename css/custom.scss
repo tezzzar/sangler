@@ -136,7 +136,7 @@ footer p {
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgb(224 224 224 / 50%);
   -webkit-transition: 0.4s;
   -moz-transition: 0.4s;
   -o-transition: 0.4s;
@@ -502,4 +502,8 @@ h6 {
 }
 .send-btn {
   background-color: #2c4369;
+}
+
+.button_section {
+  display: none;
 }
