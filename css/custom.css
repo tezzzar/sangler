@@ -35,6 +35,7 @@ footer p {
   flex-wrap: wrap;
   border: solid 1px #000;
   border-radius: 5px;
+  margin: 50px 0;
 }
 
 .about-flex-items {
@@ -462,10 +463,6 @@ h6 {
   padding: 0 0 15px 0;
 }
 
-.about-textblock p {
-  margin: 20px 0;
-}
-
 .currency-rate {
   width: 100%;
   overflow-x: auto;
@@ -521,4 +518,23 @@ h6 {
   font-weight: bold;
   font-size: 16px;
   color: #333;
+}
+
+.abouts .row {
+  row-gap: 30px;
+}
+
+@media (max-width: 768px) {
+  .abouts .row div:nth-child(4) {
+    order: 5;
+  }
+  .abouts .row div:nth-child(5) {
+    order: 4;
+  }
+  .abouts .row div:nth-child(7) {
+    order: 6;
+  }
+  .abouts .row div:nth-child(5) {
+    order: 6;
+  }
 }/*# sourceMappingURL=custom.css.map */
