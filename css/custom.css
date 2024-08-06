@@ -1,5 +1,9 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap");
+* {
+  box-sizing: border-box;
+}
+
 .about-textblock,
 .abouts .abouts-bg .abouts-us,
 .main-menu a,
@@ -558,4 +562,5 @@ h6 {
   text-transform: uppercase;
   color: #fff;
   background: #21629d;
+  margin: 0 0 150px 0;
 }/*# sourceMappingURL=custom.css.map */
