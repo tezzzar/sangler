@@ -533,4 +533,28 @@ h6 {
 .block_404 {
   background-color: #21629d;
   color: #fff;
+}
+
+.wait_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-size: 3rem;
+  text-align: center;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.wait_doc,
+.wait_button {
+  margin: 10px;
+}
+
+.wait_button {
+  padding: 10px 20px;
+  font-size: inherit;
+  cursor: pointer;
+  text-transform: uppercase;
 }/*# sourceMappingURL=custom.css.map */
