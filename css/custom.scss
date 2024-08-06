@@ -618,3 +618,15 @@ h6 {
     padding: 15px 0;
   }
 }
+
+.picture_404 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.block_404 {
+  background-color: #21629d;
+  color: #fff;
+}
