@@ -633,14 +633,14 @@ h6 {
 
 .wait_container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   height: 100vh;
   margin: 0;
   font-size: calc(1rem * 3);
   text-align: center;
   flex-direction: column;
-  gap: 100px;
+  // gap: 100px;
 }
 .wait_doc,
 .wait_button {
@@ -652,4 +652,6 @@ h6 {
   font-size: inherit;
   cursor: pointer;
   text-transform: uppercase;
+  color: #fff;
+  background: #21629d;
 }

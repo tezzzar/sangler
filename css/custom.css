@@ -537,14 +537,13 @@ h6 {
 
 .wait_container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   height: 100vh;
   margin: 0;
   font-size: 3rem;
   text-align: center;
   flex-direction: column;
-  gap: 100px;
 }
 
 .wait_doc,
@@ -557,4 +556,6 @@ h6 {
   font-size: inherit;
   cursor: pointer;
   text-transform: uppercase;
+  color: #fff;
+  background: #21629d;
 }/*# sourceMappingURL=custom.css.map */
