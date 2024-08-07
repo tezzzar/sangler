@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!-- Отримайте API-ключ Google Maps:
+Перейдіть на Google Cloud Platform і створіть проект.
+Потім активуйте Google Maps JavaScript API і отримайте API-ключ.
+Замість YOUR_API_KEY в скрипті вставте свій API-ключ.
+Цей код створює карту, розміщує маркери на ній для кожного магазину та відображає інформацію про магазин при наведенні на маркер. 
+Ви можете додати більше магазинів до масиву stores, вказавши їхні координати, назви та описи. -->
+
+<html>
+
+<head>
+    <title>Карта магазинів</title>
+    <style>
+        #map {
+            height: 600px;
+            width: 100%;
+        }
+
+        .info-window {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+    <script>
+        function initMap() {
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 12,
+                center: { lat: 50.4501, lng: 30.5234 } // Центр Києва
+            });
+
+            var stores = [
+                {
+                    position: { lat: 50.4501, lng: 30.5234 },
+                    name: 'Магазин 1',
+                    description: 'Опис магазину 1'
+                },
+                {
+                    position: { lat: 50.4547, lng: 30.5238 },
+                    name: 'Магазин 2',
+                    description: 'Опис магазину 2'
+                },
+                // Додайте більше магазинів тут
+            ];
+
+            stores.forEach(function (store) {
+                var marker = new google.maps.Marker({
+                    position: store.position,
+                    map: map,
+                    title: store.name
+                });
+
+                var infoWindow = new google.maps.InfoWindow({
+                    content: '<div class="info-window"><strong>' + store.name + '</strong><br>' + store.description + '</div>'
+                });
+
+                marker.addListener('mouseover', function () {
+                    infoWindow.open(map, marker);
+                });
+
+                marker.addListener('mouseout', function () {
+                    infoWindow.close();
+                });
+            });
+        }
+    </script>
+</head>
+
+<body onload="initMap()">
+    <div id="map"></div>
+</body>
+
+</html>

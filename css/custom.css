@@ -543,16 +543,18 @@ h6 {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 100vh;
+  height: 60vh;
   margin: 0;
-  font-size: 3rem;
+  font-size: 1.5rem;
   text-align: center;
   flex-direction: column;
+  padding-bottom: 100px;
 }
 
 .wait_doc,
 .wait_button {
   margin: 10px;
+  font-size: xxx-large;
 }
 
 .wait_button {
@@ -562,5 +564,6 @@ h6 {
   text-transform: uppercase;
   color: #fff;
   background: #21629d;
-  margin: 0 0 150px 0;
+  border: 1px solid;
+  border-radius: 10px;
 }/*# sourceMappingURL=custom.css.map */
