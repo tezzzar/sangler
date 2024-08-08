@@ -663,3 +663,11 @@ h6 {
   border: 1px solid;
   border-radius: 10px;
 }
+
+@media (min-width: 769px) {
+  .reporting {
+    .checklist {
+      font-size: 25px;
+    }
+  }
+}

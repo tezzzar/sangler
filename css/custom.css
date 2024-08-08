@@ -566,4 +566,10 @@ h6 {
   background: #21629d;
   border: 1px solid;
   border-radius: 10px;
+}
+
+@media (min-width: 769px) {
+  .reporting .checklist {
+    font-size: 25px;
+  }
 }/*# sourceMappingURL=custom.css.map */
