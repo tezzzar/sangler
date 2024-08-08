@@ -128,7 +128,7 @@
         font-size: 51px;
          line-height: 61px;
     }
-     .Currency .three-box .Bitcoin {
+     .reporting .three-box .Bitcoin {
         width: 253px;
     }
      .abouts .abouts-bg .abouts-us h3 {
@@ -157,10 +157,10 @@
         font-size: 40px;
          line-height: 50px;
     }
-     .Currency .three-box .Bitcoin {
+     .reporting .three-box .Bitcoin {
         width: 182px !important;
     }
-     .Currency .three-box .Bitcoin h3 {
+     .reporting .three-box .Bitcoin h3 {
         font-size: 25px;
     }
      .experts .experts-box .experts-threebox .icon i a {
@@ -216,10 +216,10 @@
      .experts .experts-box .experts-threebox {
         margin-bottom: 20px;
     }
-     .Currency .three-box {
+     .reporting .three-box {
         margin-bottom: 20px;
     }
-     .Currency .titlepage h2 {
+     .reporting .titlepage h2 {
         line-height: 35px;
          font-size: 35px;
     }
@@ -284,14 +284,14 @@
      .service-box {
         margin-top: 30px;
     }
-     .Currency .titlepage h2 {
+     .reporting .titlepage h2 {
         line-height: 25px;
          font-size: 24px;
     }
-     .Currency .three-box {
+     .reporting .three-box {
         margin-bottom: 20px;
     }
-     .Currency .three-box .Bitcoin {
+     .reporting .three-box .Bitcoin {
          width: 220px;
     }
      .abouts .abouts-bg {

@@ -87,7 +87,7 @@ footer p {
   background: #2c4369;
 }
 
-.Currency .three-box {
+.reporting .three-box {
   border-top: none;
   text-align: center;
 }
@@ -349,22 +349,22 @@ footer p {
   left: 0;
 }
 
-.Currency .titlepage h2 {
+.reporting .titlepage h2 {
   line-height: 52px;
   font-size: 30px;
 }
 
-.Currency {
+.reporting {
   padding: 0 0 25px 0;
 }
 
-.Currency .titlepage {
+.reporting .titlepage {
   text-align: center;
   padding: 35px 0 15px 0;
 }
 
 @media (max-width: 992px) {
-  .Currency .titlepage {
+  .reporting .titlepage {
     text-align: left;
   }
 }
@@ -422,9 +422,9 @@ footer p {
   }
 }
 
-.Currency ul a,
+.reporting ul a,
 .Request .titlepage3 h2,
-.Currency .titlepage h2,
+.reporting .titlepage h2,
 h1,
 h2,
 h3,
@@ -485,7 +485,7 @@ h6 {
 //     line-height: 21px;
 //   }
 // }
-.Currency-bg {
+.reporting-bg {
   background-color: #21629d;
 }
 .head-top {
@@ -522,14 +522,14 @@ h6 {
   padding: 0 0 15px 0;
 }
 
-// ------------------- Currency Table -----------------
+// ------------------- reporting Table -----------------
 
-.currency-rate {
+.reporting-rate {
   width: 100%;
   overflow-x: auto;
   margin: 20px 0;
   font-size: 20px;
-  .currency-title {
+  .reporting-title {
     font-size: 25px;
     font-weight: 500;
     text-align: center;

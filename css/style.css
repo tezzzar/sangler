@@ -690,12 +690,12 @@ nav.main-menu {
     right: 0;
 }
 
-.right-dropdown-currency {
+.right-dropdown-reporting {
     float: right;
     margin-left: 12px;
 }
 
-.dropdown-bar.right-dropdown-currency>a::after {
+.dropdown-bar.right-dropdown-reporting>a::after {
     font-family: 'FontAwesome';
     content: "\f107";
     text-decoration: none;
@@ -703,25 +703,25 @@ nav.main-menu {
     color: #ffffff;
 }
 
-.right-dropdown-currency>a {
+.right-dropdown-reporting>a {
     line-height: 10px;
     padding: 5px 5px;
     cursor: pointer;
     color: #ffffff;
 }
 
-.right-dropdown-currency .dropdown-link {
+.right-dropdown-reporting .dropdown-link {
     min-width: 100px;
     padding: 7px 10px;
     color: #111111;
 }
 
-.right-dropdown-currency .dropdown-link {
+.right-dropdown-reporting .dropdown-link {
     min-width: 55px;
     padding: 7px 10px;
 }
 
-.right-dropdown-currency .dropdown-link li a span.symbol {
+.right-dropdown-reporting .dropdown-link li a span.symbol {
     margin-right: 7px;
 }
 
@@ -1712,17 +1712,17 @@ input[type="radio"] .styled:checked+label::after {
     padding: 19px 0px 70px 0px;
 }
 
-.Currency {
+.reporting {
     background-color: #fff;
     padding: 90px 0px;
 }
 
-.Currency .titlepage {
+.reporting .titlepage {
     text-align: center;
     padding-bottom: 65px;
 }
 
-.Currency .titlepage h2 {
+.reporting .titlepage h2 {
     font-weight: 500;
     line-height: 72px;
     font-size: 40px;
@@ -1734,20 +1734,20 @@ input[type="radio"] .styled:checked+label::after {
     font-weight: 500;
 }
 
-.Currency .three-box {
+.reporting .three-box {
     border-top: #ff0000 solid 2px;
     text-align: center;
 }
 
-.Currency .three-box figure {
+.reporting .three-box figure {
     margin: 0px;
 }
 
-.Currency .three-box figure img {
+.reporting .three-box figure img {
     width: 100%;
 }
 
-.Currency .three-box .Bitcoin {
+.reporting .three-box .Bitcoin {
     position: relative;
     margin-top: -60px !important;
     text-align: center;
@@ -1758,25 +1758,25 @@ input[type="radio"] .styled:checked+label::after {
     width: 310px;
 }
 
-.Currency .three-box .Bitcoin i img {
+.reporting .three-box .Bitcoin i img {
     margin-top: -36px;
 }
 
-.Currency .three-box .Bitcoin p {
+.reporting .three-box .Bitcoin p {
     padding-top: 20px;
     font-size: 15px;
     line-height: 23px;
     color: #3e3c3c;
 }
 
-.Currency .three-box .Bitcoin h3 {
+.reporting .three-box .Bitcoin h3 {
     font-size: 27px;
     line-height: 32px;
     font-weight: 500;
     padding-top: 10px;
 }
 
-.Currency .three-box .read-more {
+.reporting .three-box .read-more {
     padding: 11px 20px;
     background-color: #000;
     color: #fff;
@@ -1787,7 +1787,7 @@ input[type="radio"] .styled:checked+label::after {
     line-height: 20px;
 }
 
-.Currency .three-box .read-more:hover {
+.reporting .three-box .read-more:hover {
     background-color: #002C54;
 }
 
@@ -2194,11 +2194,11 @@ ul.socil_link li:last-child {
     text-align: center;
 }
 
-.Currency-bg {
+.reporting-bg {
     background-color: #002C54;
 }
 
-.Currency-bg .abouttitle h2 {
+.reporting-bg .abouttitle h2 {
     color: #fff;
     text-transform: uppercase;
     font-size: 40px;
