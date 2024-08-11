@@ -584,4 +584,7 @@ h6 {
     line-height: 40px;
     font-size: 26px;
   }
+  .reporting .checklist li > a {
+    font-size: 18px;
+  }
 }/*# sourceMappingURL=custom.css.map */
