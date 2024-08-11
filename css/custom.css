@@ -292,9 +292,13 @@ footer p {
   left: 0;
 }
 
-.reporting .titlepage h2 {
+.reporting .titlepage h2,
+.reporting .titlepage h1 {
   line-height: 52px;
   font-size: 30px;
+  font-weight: 500;
+  text-align: left;
+  padding: 0 0 0 32px;
 }
 
 .reporting {
@@ -571,5 +575,11 @@ h6 {
 @media (min-width: 769px) {
   .reporting .checklist {
     font-size: 22px;
+  }
+}
+@media (max-width: 767px) {
+  .reporting .titlepage h2,
+  .reporting .titlepage h1 {
+    padding: 0 0 0 20px;
   }
 }/*# sourceMappingURL=custom.css.map */
