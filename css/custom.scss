@@ -441,6 +441,11 @@ h5,
 h6 {
   color: #666;
 }
+
+.reporting ul li:hover {
+  text-decoration: underline;
+}
+
 .Request-box .Register {
   display: flex;
   flex-direction: column;
